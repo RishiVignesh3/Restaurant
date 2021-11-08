@@ -10,7 +10,7 @@ const frontDesk = () => {
         </header>
       </div>
       <section className={Style["content"]}>
-        <h1>Starving? Book a Table to Feast..... </h1>
+        <h1>Starving?  Book a Table to Feast..... </h1>
         <section className={Style["content_Searchers"]}>
           <input type="date" id="i1" placeholder="When" />
           <input type="time" id="12" placeholder="At?" />
