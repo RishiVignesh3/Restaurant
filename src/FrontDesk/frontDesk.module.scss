@@ -1,0 +1,73 @@
+.frontDesk {
+  display: grid;
+  justify-content: flex-end;
+  background-color: bisque;
+}
+.logo {
+  position: absolute;
+  height: 32px;
+  width: 50px;
+  background-image: url(../images/smoking-burger-with-lettuce-3624ld.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 15px;
+  left: 50px;
+  border: none;
+}
+.headerBtn {
+  margin: 10px;
+  padding: 10px 20px;
+  box-shadow: 2px 3px rgba(117, 116, 116, 0.486);
+  background-color: white;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-size: cover;
+  background-image: url(../images/photo-1552566626-52f8b828add9.jfif);
+  h1 {
+    position: absolute;
+    top: 20%;
+    font-style: italic;
+    font-size: xx-large;
+    color: white;
+  }
+  input {
+    margin: 10px;
+    padding: 10px 25px;
+    box-shadow: 2px 3px rgba(117, 116, 116, 0.486);
+    background-color: white;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 700;
+    // position:relative;
+  }
+  label {
+    color: aliceblue;
+    font-size: large;
+  }
+}
+
+.content_Map {
+  height: "100vh";
+  width: "100%";
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+ul{
+  padding: 20px;
+//   text-align: center;
+  border: 2px solid black;
+  color: aliceblue;
+  list-style: none;
+}
